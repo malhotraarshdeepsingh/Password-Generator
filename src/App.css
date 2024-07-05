@@ -1,0 +1,86 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+  
+  .comic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #ffe600;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 400px;
+  }
+  
+  .comic-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .comic-input-container {
+    display: flex;
+    border: 2px solid #333;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .comic-input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    color: #333;
+    background: #fff;
+  }
+  
+  .comic-button {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .comic-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .comic-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background: #ffe600;
+    width: 100%;
+  }
+  
+  .comic-range {
+    margin: 0 1rem;
+  }
+  
+  .comic-checkboxes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background: #ffe600;
+    width: 100%;
+  }
+  
